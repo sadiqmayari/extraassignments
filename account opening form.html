@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Form</title>
+</head>
+
+<body>
+    <h1 ALIGN="center">ACCOUNT OPENING FORM </h1>
+    <h2><SPAN style="background-color: aqua;">Personal Details</SPAN></h2>
+    <table>
+        <form action="https://www.memonjee.com">
+
+            <tr>
+                <td> Name*: </td>
+
+
+                <td><input type="text" name="username" value="" placeholder="Your Name" required="required"></td>
+            </tr>
+            <tr>
+                <td>Name of <br>(Father/Gardian)</td>
+
+
+                <td><input type="text" name="Gardian" value=""></td>
+            </tr>
+            <tr>
+                <td> Date of Birth* </td>
+
+
+                <td><input type="date" pattern="\d{2}-\{2}-\d{2}" placeholder="dd-mm-yy" required="required"></td>
+            </tr>
+
+            <tr>
+                <td>Gender*</td>
+
+
+                <td><label><input type="radio" name="gender" value="Male" required="required">Male </label><label ><input type="radio" name="gender" value="Female" required="required">Female</label></td>
+            </tr>
+
+            <tr>
+                <td>Nationality: </td>
+
+
+                <td><input type="text" name="Nationality" value=""></Label></td>
+            </tr>
+            <tr>
+                <td>Account Type*</td>
+
+                <td> <label><input type="radio" name="accouttype" value="savings" required="required">Savings</label>
+                <label> <input type="radio" name="accounttype" value="fixed" required="required"> Fixed</label></td>
+            </tr>
+
+            <tr>
+                <td>Preferences </td>
+
+                <td>
+                    <label ><input type="checkbox" name="Preferences" value="internet">Internet Banking
+                    </label>
+               
+                    <label> <input type="checkbox" name="Preferences" value="mobilebanking">Mobile Banking</label>
+                
+                    <label><input type="checkbox" name="Preferences" value="smsalerts">SMS alerts</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>
+                        Address</label></td>
+                <td> <div><textarea name="" id=""  rows="5"></textarea></div></td>
+            </tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+            <tr>
+                <td>Country* </td>
+
+                <td>
+                    <select name="country" required="required">
+                        <option value="pkr">Pakistan</option>
+                        <option value="ind">India</option>
+                        <option value="usa">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="uae">United Arab Emirates</option>
+                        <option value="bng">Bangladesh</option>
+                        <option value="trk">Turkey</option>
+                        <option value="spn">Spain</option>
+                        <option value="mldv">Maldives</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip </td> 
+                <td><input type="number" name="zip" value="" required="required"></td>
+            </tr>
+            <tr><td>Phone* </td><td><input type="number" name="Phone" value="" required="required"></td></tr>
+            <tr><td>Email*</td> <td><input type="email" name="email" value="" required="required"></td></tr>
+            <tr><td>Password (6 to 8 characters)*</td> <td><input type="password" name="password" value="" maxlength="8"
+                    required="required"></td></tr>
+
+            <tr><td>Verify Password (6 to 8 characters)* </td><td> <input type="password" name="password" value="" maxlength="8"
+                    required="required"></td></tr>
+
+
+
+            <tr>
+                <td></td><td><input type="submit" name="submit" value="submit"> <input type="reset" value="Clear"></td></tr>
+                
+
+        </form>
+    </table>
+</body>
+
+</html>
