@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Form Validation in JavaScript</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <div class="box">
-        <header class="signup-header">
-          <h1>Signup</h1>
-        </header>
-        <main class="signup-body">
-          <form action="#">
-            <p>
-              <label for="name">Full name</label>
-              <input type="text" placeholder="Type Name Here" id="name" />
-              <i class="fa-sharp fa-solid"></i>
-              <span id="nameError"></span>
-            </p>
-            <p>
-              <label for="email">Email</label>
-              <input type="text" placeholder="xyz@gmail.com" id="email" />
-              <i class="fa-sharp fa-solid"></i>
-              <span id="emailError"></span>
-            </p>
-            <p>
-              <label for="Password">Password</label>
-              <input
-                type="password"
-                placeholder="at least 8 characters"
-                id="Password"
-              />
-              <i class="fa-sharp fa-solid"></i>
-              <span id="passError"></span>
-            </p>
-            <p>
-              <input type="submit" value="Create Account" id="submitBtn"/>
-            </p>
-          </form>
-        </main>
-        <footer class="signup-footer">
-          <p>Already Have an Account? <a href="">Login</a></p>
-        </footer>
-      </div>
+        <div class="box">
+            <header class="signup-header">
+                <h1>Signup</h1>
+            </header>
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="name">Full name</label>
+                        <input type="text" placeholder="Type Name Here" id="name" />
+                        <i class="fa-solid"></i>
+                        <span id="nameError"></span>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" placeholder="xyz@gmail.com" id="email" />
+                        <i class=" fa-solid"></i>
+                        <span id="emailError"></span>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="at least 8 characters" id="password" />
+                        <i class="fa-solid"></i>
+                        <span id="passError"></span>
+                    </p>
+                    <p>
+                        <input type="submit" value="Create Account" id="submitBtn" />
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Already Have an Account? <a href="">Login</a></p>
+            </footer>
+        </div>
     </div>
-    
-  </body>
-  <script src="script.js"></script>
-  <script src="https://kit.fontawesome.com/3c2cacd22f.js" crossorigin="anonymous"></script>
+
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/3c2cacd22f.js" crossorigin="anonymous"></script>
+
 </html>
