@@ -21,7 +21,7 @@ section {
 
 @keyframes animateBg {
   100% {
-    filter: hue-rotate(360deg);
+    filter:hue-rotate(360deg);
   }
 }
 

@@ -1,3 +1,29 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+section{
+    background:url(../New\ Signup\ Form/pxfuel.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+    animation: animateBg 5s linear infinite;
+}
+
+@keyframes animateBg {
+    100% {
+      filter:hue-rotate(360deg);
+    }
+  }
+h1{
+    color: white;
+}
+
 .x{
     font-family: Georgia, 'Times New Roman', Times;
     font-size: 48px;
@@ -5,22 +31,36 @@
     
 }
 .mhead{
-   
+    margin: 50px 0 20px 0;
     display: flex;
+    justify-content: center;
+    width: 100%;
     gap: 60px;
     font-size: 22px;
     align-items: center;
+    background: transparent;
+    backdrop-filter: blur (15px);
     
       
 
 }
+
+.h2{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+}
 .mhead a{
-    border: 2px solid black;
+    
+    position: relative;
+    border: 2px solid rgb(148, 121, 121);
     border-radius: 4px;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: sans-serif;
+    backdrop-filter: blur(15px);
 }
 
 .mhead a:hover{
@@ -28,3 +68,48 @@
     box-shadow: 2px 2px  red, -2px -2px red;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: white;
+
+    
+}
+.menu-list{
+    border: 2px solid rgb(148, 121, 121);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+.list, .list-head{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    font-size: 1.2em;
+    padding: 3px;
+    
+
+}
+
+.list-head{
+    
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid lightslategray;
+}
+
+
+
+
