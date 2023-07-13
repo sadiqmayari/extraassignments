@@ -1,8 +1,4 @@
-@keyframes animateBg {
-    100% {
-      filter:hue-rotate(360deg);
-    }
-  }
+
   
 
 *{
@@ -10,13 +6,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+section{
     background: url(pxfuel.jpg) no-repeat;
     background-size:cover;
     background-position:center;
     animation:animateBg linear 5s infinite;
 
 }
+@keyframes animateBg {
+    100% {
+      filter:hue-rotate(360deg);
+    }
+  }
+  
 .x{
     color: red;
     
