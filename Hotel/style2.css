@@ -33,7 +33,7 @@ section{
     align-items: center;
     font-size: 18px;
     flex-wrap:wrap;
-    height: 200px;
+    min-height: 200px;
     background-image: linear-gradient(to bottom right, rgb(195, 233, 211), rgb(115, 120, 165), rgb(158, 109, 177));
     
 }
@@ -80,8 +80,8 @@ button{
     flex-wrap: wrap;
     font-size: 22px;
     background: transparent;
-    backdrop-filter: blur (15px);
-    height: 100px;
+    backdrop-filter: blur (1px);
+    min-height: 150px;
    
     
 }  
@@ -104,12 +104,16 @@ button{
 }
 
 .full-menu{
+    margin: auto;
+    max-width: 40rem;
     margin-top: 3em;
     color: white;
    
 
     
 }
+
+
 .h3{
     text-align: center;
     margin-top: 20px;
@@ -127,6 +131,7 @@ button{
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 2em;
+   
     
     
 }
@@ -145,5 +150,8 @@ button{
     font-weight: 700;
 }
 
+.content-space{
+    margin-bottom: 1em;
+    
+}
 
- 
