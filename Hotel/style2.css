@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 section{
-    background: url(pxfuel.jpg) no-repeat;
+    background: url(peakpx.jpg) no-repeat;
     background-size:cover;
     background-position:center;
     animation:animateBg linear 5s infinite;
